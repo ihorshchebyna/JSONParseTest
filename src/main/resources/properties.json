@@ -1,0 +1,50 @@
+{
+  "website": {
+    "nameOfEnvironment": "websiteName",
+    "remoteWebDriverUrl": "websiteRemoteUrl",
+    "baseUrlWebSite": "websiteBaseUrl",
+    "webSiteUsername": "websiteUsername",
+    "webSitePassword": "websitePassword",
+    "databaseProperties": [
+      {"prod": [
+        {"driver": "prodWebsiteDriver",
+          "hostName": "prodWebsiteHostName",
+          "port": "prodWebsitePort",
+          "user": "prodWebsiteUser",
+          "password": "prodWebsitePassword",
+          "serviceName": "prodWebsiteServiceName"
+        }]},
+      {"dev": [
+        {"driver": "devWebsiteDriver",
+          "hostName": "devWebsiteHostName",
+          "port": "devWebsitePort",
+          "user": "devWebsiteUser",
+          "password": "devWebsitePassword",
+          "serviceName": "devWebsiteServiceName"
+        }]} ]
+  },
+  "platform": {
+    "nameOfEnvironment": "platformName",
+    "remoteWebDriverUrl": "platformRemoteUrl",
+    "baseUrlWebSite": "platformBaseUrl",
+    "webSiteUsername": "platformUsername",
+    "webSitePassword": "platformPassword",
+    "databaseProperties": [
+      {"prod": [
+        {"driver": "prodPlatformDriver",
+          "hostName": "prodPlatformHostName",
+          "port": "prodPlatformPort",
+          "user": "prodPlatformUser",
+          "password": "prodPlatformPassword",
+          "serviceName": "prodPlatformServiceName"
+        }]},
+      {"dev": [
+        {"driver": "devPlatformDriver",
+          "hostName": "devPlatformHostName",
+          "port": "devPlatformPort",
+          "user": "devPlatformUser",
+          "password": "devPlatformPassword",
+          "serviceName": "devPlatformServiceName"
+        }]} ]
+  }
+}
