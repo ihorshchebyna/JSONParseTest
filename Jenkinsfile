@@ -3,7 +3,9 @@ pipeline{
     stages {
         stage('build') {
             steps('hello') {
-                sh './gradlew build'
+                sh '''
+                chmod +x gradlew && ./gradlew build
+                '''
             }
         }
         stage('deploy') {
