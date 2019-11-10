@@ -12,7 +12,7 @@ import static enums.Environment.WEBSITE;
 
 public class JSONFileTest {
     private FileParser fileParser;
-    private static final String filePath = "src\\main\\resources\\properties.json";
+    private static final String filePath = "src/main/resources/properties.json";
     private TestEnvironment testEnvironment;
 
     @Test
