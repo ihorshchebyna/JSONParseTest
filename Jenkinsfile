@@ -3,7 +3,7 @@ pipeline{
     stages {
         stage('build') {
             steps('hello') {
-                sh 'echo ./gradlew build'
+                sh 'cd build-folder && ./gradlew build'
             }
         }
         stage('deploy') {
